@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS Customer_Details;
+  
+CREATE TABLE Customer_Details (
+  account_No BIGINT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  password VARCHAR(250) NOT NULL,
+  email_Id VARCHAR(250) DEFAULT NULL,
+pancard_No VARCHAR(250) NOT NULL,
+  address VARCHAR(250) NOT NULL,
+
+mobile_No BIGINT ,
+balance NUMBER
+);
